@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fahad Dankabo Foundation - Empowering communities through education, poverty alleviation, and community development in Kano, Nigeria.">
+    <title>Fahad Dankabo Foundation</title>
+    <style>
+        
+       /* General Styles for the Website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #004d40; /* Deep green background */
+    background: url('path-to-your-header-image.jpeg') center/cover no-repeat;
+    color: #1b412f;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-family: 'Playfair Display', serif; /* Royal font for the title */
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #061f0b; /* Gold color for tagline */
+}
+
+nav {
+    background-color: #003b30;
+    padding: 15px 0;
+}
+
+nav a {
+    color: #d4af37;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+section {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #004d40;
+    font-size: 2em;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #007b5e;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul.contact-info, ul.program-list, ul.org-structure {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.contact-info li, ul.program-list li, ul.org-structure li {
+    margin: 10px 0;
+}
+
+ul.program-list li, ul.org-structure li {
+    font-size: 1.1em;
+    color: #555;
+}
+
+footer {
+    background-color: #004d40;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+footer p a {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: #fff;
+}
+
+/* Custom Styles for Specific Pages */
+
+/* Home Page */
+#home {
+    background-image: url('foundation-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#home p {
+    font-size: 1.5em;
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.8;
+}
+
+/* About Us Page */
+#about {
+    background-color: #fefefe;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+#about p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* Programmes Page */
+#programs {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+#programs ul.program-list li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 5px solid #d4af37;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Organizational Structure Page */
+#structure {
+    background-color: #fff;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+#structure ul.org-structure li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 5px solid #004d40;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Us Page */
+#contact {
+    background-color: #fefefe;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+#contact ul.contact-info {
+    text-align: left;
+}
+
+#contact ul.contact-info li {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+#contact p {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 20px;
+}
+
+#contact ul.contact-info li strong {
+    font-weight: bold;
+    color: #007b5e;
+}
+
+/* Buttons and Links */
+button {
+    background-color: #007b5e;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+a {
+    color: #007b5e;
+}
+
+a:hover {
+    color: #004d40;
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Fahad Dankabo Foundation</h1>
+        <p>Empowering Communities for a Brighter Future</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#programs">Programmes & Initiatives</a>
+        <a href="#structure">Organizational Structure</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Fahad Dankabo Foundation</h2>
+        <p>The Fahad Dankabo Foundation (FDF) is a philanthropic and social entrepreneurial initiative founded with a mission to uplift vulnerable and underserved communities in Kano State, Nigeria, and beyond. We are committed to fostering sustainable development through humanitarian services, youth mobilization, and women empowerment.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p><strong>Mission:</strong> To foster sustainable social and economic development by providing financial, educational, and moral support to vulnerable communities, empowering women and youth, and advocating for inclusive growth with special emphasis on education and rural development.</p>
+        <p><strong>Vision:</strong> To be a leading philanthropic organization in Northern Nigeria, creating lasting impacts in vulnerable communities by addressing pressing socio-economic challenges, promoting education, and empowering marginalized groups.</p>
+        <h3>Our Purpose</h3>
+        <p>The Fahad Dankabo Foundation strives to:</p>
+        <ul>
+            <li>Support education by funding student registration fees and advocating for girl-child education.</li>
+            <li>Alleviate poverty by supporting vulnerable households, especially during Ramadan.</li>
+            <li>Empower women and youth through skill acquisition and entrepreneurship programs.</li>
+            <li>Promote community development by mobilizing youth and collaborating with elders.</li>
+        </ul>
+    </section>
+
+    <section id="programs">
+        <h2>Programmes & Initiatives</h2>
+        <ul class="program-list">
+            <li><strong>Educational Support Programme:</strong> Providing scholarships, funding registration fees, and promoting girl-child education.</li>
+            <li><strong>Ramadan Financial Aid Programme:</strong> Providing financial aid to vulnerable families during Ramadan for food, clothing, and healthcare.</li>
+            <li><strong>Youth Mobilization and Empowerment Programme:</strong> Offering entrepreneurship training and mentorship to youths.</li>
+            <li><strong>Girl Child Education Initiative:</strong> Advocating for girl-child enrollment and addressing cultural barriers to education.</li>
+            <li><strong>Rural Women Empowerment Programme:</strong> Offering skill acquisition training and micro-loans for rural women.</li>
+            <li><strong>Community Development Projects:</strong> Building schools, clinics, and clean water wells through collaboration with elders.</li>
+        </ul>
+    </section>
+
+    <section id="structure">
+        <h2>Organizational Structure</h2>
+        <ul class="org-structure">
+            <li><strong>Board of Trustees:</strong> Oversees the foundation's strategic direction and alignment with its mission and vision.</li>
+            <li><strong>Executive Director:</strong> Manages daily operations and ensures program efficiency.</li>
+            <li><strong>Program Managers:</strong> Oversee specific programs such as education, youth mobilization, and women empowerment.</li>
+            <li><strong>Monitoring & Evaluation Team:</strong> Assesses the impact of programs and ensures goals are met.</li>
+            <li><strong>Volunteers:</strong> Assist in implementing various programs and initiatives.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <ul class="contact-info">
+            <li><strong>Address:</strong> Kano State, Nigeria</li>
+            <li><strong>Email:</strong> info@fahaddankabofoundation.org</li>
+            <li><strong>Phone:</strong> +234 800 123 4567</li>
+        </ul>
+        <p>Feel free to reach out to us with any questions, partnership opportunities, or to learn more about our initiatives.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fahad Dankabo Foundation. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

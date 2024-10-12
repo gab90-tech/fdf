@@ -1,0 +1,243 @@
+/* General Styles for the Website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('path-to-your-header-image.jpeg') center/cover no-repeat;
+    opacity: 0.2;
+    z-index: 0;
+}
+header {
+    background-color: #004d40; /* Deep green background */
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-family: 'Playfair Display', serif; /* Royal font for the title */
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #d4af37; /* Gold color for tagline */
+}
+
+nav {
+    background-color: #003b30;
+    padding: 15px 0;
+}
+
+nav a {
+    color: #d4af37;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+section {
+    padding: 40px 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #004d40;
+    font-size: 2em;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #007b5e;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul.contact-info, ul.program-list, ul.org-structure {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.contact-info li, ul.program-list li, ul.org-structure li {
+    margin: 10px 0;
+}
+
+ul.program-list li, ul.org-structure li {
+    font-size: 1.1em;
+    color: #555;
+}
+
+footer {
+    background-color: #004d40;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+footer p a {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: #fff;
+}
+
+/* Custom Styles for Specific Pages */
+
+/* Home Page */
+#home {
+    background-image: url('foundation-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#home p {
+    font-size: 1.5em;
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.8;
+}
+
+/* About Us Page */
+#about {
+    background-color: #fefefe;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+#about p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* Programmes Page */
+#programs {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+
+#programs ul.program-list li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 5px solid #d4af37;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Organizational Structure Page */
+#structure {
+    background-color: #fff;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+#structure ul.org-structure li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 5px solid #004d40;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Us Page */
+#contact {
+    background-color: #fefefe;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+#contact ul.contact-info {
+    text-align: left;
+}
+
+#contact ul.contact-info li {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+#contact p {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 20px;
+}
+
+#contact ul.contact-info li strong {
+    font-weight: bold;
+    color: #007b5e;
+}
+
+/* Buttons and Links */
+button {
+    background-color: #007b5e;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+a {
+    color: #007b5e;
+}
+
+a:hover {
+    color: #004d40;
+    text-decoration: underline;
+}
